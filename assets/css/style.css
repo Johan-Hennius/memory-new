@@ -1,0 +1,14 @@
+#gameBoard {
+    width: 25em;
+    height: 25em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 6.25em);
+}
+
+.card {
+    width: 6.25em;
+    height: 6.25em;
+    border: 1px solid black;
+    cursor: pointer;
+}
